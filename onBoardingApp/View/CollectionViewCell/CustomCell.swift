@@ -30,12 +30,12 @@ class CustomCell: UICollectionViewCell {
         contentView.backgroundColor = .systemBackground
         
         // Background Image View
-        imageView.contentMode = .scaleToFill
+        imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(imageView)
         
         // Image on top of Background Image View
-        topImageView.contentMode = .scaleToFill
+        topImageView.contentMode = .scaleAspectFill
         topImageView.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(topImageView)
         
